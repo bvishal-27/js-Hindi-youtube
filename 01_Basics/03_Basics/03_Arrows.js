@@ -1,4 +1,5 @@
 //0bject
+/*
 const user={
     username: " B Vishal",
     price : 999,
@@ -7,7 +8,8 @@ const user={
         //console.log(this)
     }
 }
-user.welcomeessage()
+    */
+//user.welcomeessage()
 //user.username="sam"
 // user.welcomeessage()
 //console.log(this.username)
@@ -70,6 +72,7 @@ const addTwo =(num1,num2)=>{
 
 
  // object return type
+ /*
  
  const adTwo=(n1,n2) => ({username : "B Vishal"})
  
@@ -77,4 +80,36 @@ const addTwo =(num1,num2)=>{
 
  //-> output { username: 'B Vishal' }
 
- 
+ */
+
+ //****************** IIFE *******************
+ /*
+  function immediately got executed and
+ -----> due to polution of global scope  decleration  so thaats removal purpose we used    IIFE 
+ */
+ // immediately, invoked function expression.  --->()();👍 semicolon ;
+
+ /*
+ (function chai(){
+ // named iife
+    console.log('DB Connected');
+ })();
+ //chai()
+
+ ( function aurcode(){
+    console.log('DB Connected two');
+ })();
+ */
+///
+
+( () =>{
+    //un-named iife
+    console.log('DB Connected three');
+})();
+
+
+( (name)=>{
+    console.log(`DB connected to${name}  , `);
+})("Vishal");
+// iife with parameter👍
+
