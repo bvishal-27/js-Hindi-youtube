@@ -111,5 +111,6 @@ const addTwo =(num1,num2)=>{
 ( (name)=>{
     console.log(`DB connected to${name}  , `);
 })("Vishal");
+
 // iife with parameter👍
 
