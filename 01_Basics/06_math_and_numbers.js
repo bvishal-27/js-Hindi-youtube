@@ -4,7 +4,7 @@ const score=400
 //400
 //[Number: 100]
 const balance= new Number(100)
-//console.log(balance)
+console.log(balance)
 
 
 //we can convert number to string &. check length
@@ -38,7 +38,7 @@ console.log(Math.floor(4.3))// below value its provide like  4
 console.log(Math.min(2,5,4,6,3)). // minimum
 console.log(Math.max(12,34,55,65,55)) // maximum
 
-*/
+
 //// math Random
 console.log(Math.random());    //it  will give numbers  between. 0 and 1
 console.log((Math.random()*10) +1); ////it  will give numbers  shift answer value  to left 0.1 ,0.2
@@ -48,3 +48,4 @@ const min=10;
 const max=20;
 console.log(Math.floor(Math.random()*(max-min+1))+min)
  //  we use.  ( max-min ) for getting value in range and adding 1 to avoid 0 case  and added value MIN bcz minimum this much value we must need
+*/
