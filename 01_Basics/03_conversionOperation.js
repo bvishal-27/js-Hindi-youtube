@@ -1,4 +1,4 @@
-//let score="33"
+let score="33"
 //console.log(33)
 //console.log(typeof score);
 //console.log(typeof(score));// method type  writing
@@ -15,10 +15,10 @@ let booleanIsLogedinIn=  Boolean(isLogedIN);
 //*******************Operations *************** */
 let value =3
 let negValue= - value
-console.log(negValue)
-//console.log("1"+2+2) 
+//console.log(negValue)
+///console.log("1"+2+2) 
 //console.log(1+2+"2") 
 
 let gameCounter=100;
 ++gameCounter;
-console.log(gameCounter);
+//console.log(gameCounter);
