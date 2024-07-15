@@ -1,5 +1,7 @@
 //for of
-
+// ["","", ""]
+    // [{},{},{}]
+    183, 13, 1311
 
 const arr=[1,2,3,4,5]
 for (const num of arr) {
@@ -20,5 +22,24 @@ for (const num of arr) {
 
  // For of Loop on MAPS
  for (const [key, value] of map) {
-    console.log(key, ' :-> ' , value);
+   // console.log(key, ' :-> ' , value);
  }
+
+ //
+ const myProgaming=[
+    {
+        lanuageName:"java",
+         languagefile: "java"
+    }, 
+    {
+        lanuageName:"js",
+         languagefile: "java Script"
+    },
+    {
+        lanuageName:"python",
+         languagefile: "python"
+    }
+ ]
+ myProgaming.forEach((item)=>{
+console.log(item.languagefile);
+ })
